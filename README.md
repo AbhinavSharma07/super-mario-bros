@@ -1,6 +1,2 @@
 
-
-
-
-
 # super-mario-bros
