@@ -1,18 +1,6 @@
 
 
 
-        if keys[pygame.K_RIGHT]:
-            self.rect.x += PLAYER_SPEED
-
-        # Apply gravity
-        self.vel_y += GRAVITY
-        self.rect.y += self.vel_y
-
-        # Check ground collision
-        if self.rect.bottom >= HEIGHT - 40:  # Ground level
-            self.rect.bottom = HEIGHT - 40
-            self.vel_y = 0
-            self.on_ground = True
         else:
             self.on_ground = False
 
