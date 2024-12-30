@@ -1,12 +1,5 @@
 
-# Screen and clock
-screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Super Mario Lookalike")
-clock = pygame.time.Clock()
 
-# Load assets
-player_img = pygame.Surface((40, 60))
-player_img.fill(BLUE)
 
 # Player class
 class Player(pygame.sprite.Sprite):
