@@ -1,16 +1,5 @@
 
 
-
-        self.rect.y = y
-
-# Groups
-all_sprites = pygame.sprite.Group()
-platforms = pygame.sprite.Group()
-
-# Create player
-player = Player()
-all_sprites.add(player)
-
 # Create platforms
 ground = Platform(0, HEIGHT - 40, WIDTH, 40)
 platforms.add(ground)
