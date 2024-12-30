@@ -1,10 +1,4 @@
 
-# Initialize pygame
-pygame.init()
-
-# Constants
-WIDTH, HEIGHT = 800, 400
-FPS = 60
 PLAYER_SPEED = 5
 GRAVITY = 0.8
 JUMP_SPEED = -15
