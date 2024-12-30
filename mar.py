@@ -1,4 +1,2 @@
-
-
 pygame.quit()
 sys.exit()
