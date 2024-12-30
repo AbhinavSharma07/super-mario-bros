@@ -1,13 +1,4 @@
-
-
-            if event.key == pygame.K_SPACE:
-                player.jump()
-
-    # Update
-    all_sprites.update()
-
-    # Check collisions
-    if pygame.sprite.spritecollide(player, platforms, False):
+player, platforms, False):
         player.vel_y = 0
 
     # Draw
