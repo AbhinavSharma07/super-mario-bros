@@ -1,13 +1,5 @@
 
 
-# Create platforms
-ground = Platform(0, HEIGHT - 40, WIDTH, 40)
-platforms.add(ground)
-all_sprites.add(ground)
-
-floating_platform = Platform(300, HEIGHT - 150, 200, 20)
-platforms.add(floating_platform)
-all_sprites.add(floating_platform)
 
 # Main game loop
 running = True
