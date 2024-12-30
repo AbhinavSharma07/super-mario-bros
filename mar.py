@@ -1,16 +1,6 @@
 
 
 
-# Player class
-class Player(pygame.sprite.Sprite):
-  
-        self.vel_y = 0
-        self.on_ground = False
-
-    def update(self):
-        keys = pygame.key.get_pressed()
-        if keys[pygame.K_LEFT]:
-            self.rect.x -= PLAYER_SPEED
         if keys[pygame.K_RIGHT]:
             self.rect.x += PLAYER_SPEED
 
