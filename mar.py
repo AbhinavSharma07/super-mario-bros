@@ -3,12 +3,7 @@
 
 # Player class
 class Player(pygame.sprite.Sprite):
-    def __init__(self):
-        super().__init__()
-        self.image = player_img
-        self.rect = self.image.get_rect()
-        self.rect.x = 50
-        self.rect.y = HEIGHT - 100
+  
         self.vel_y = 0
         self.on_ground = False
 
